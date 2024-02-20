@@ -1,0 +1,42 @@
+.sub-page-list {
+  background-color: rgb(95, 146, 255);
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+i {
+  color: rgb(95, 146, 255);
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  padding-top: 2vh;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+.sub-container div {
+  width: 200px;
+  margin: 10px;
+}
+
+.sub-container p {
+  font-size: 10px;
+}
+
+.tx-h2 {
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .sub-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

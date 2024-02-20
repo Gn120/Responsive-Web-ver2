@@ -1,0 +1,39 @@
+.sub-page {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.sub-text {
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .sub-page {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sub-page {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .sub-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .sub-page {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  .sub-text {
+    font-size: 14px;
+  }
+}
